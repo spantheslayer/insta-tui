@@ -1,0 +1,11 @@
+[package]
+name = "insta-tui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+select = "0.6.0"
+reqwest = { version = "0.11", features = ["blocking"] }
+image = "0.24.7"
+viuer = "0.7.1"
+tokio = { version = "1", features = ["full"] }
